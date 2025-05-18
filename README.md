@@ -53,7 +53,7 @@ Follow these steps to set up and run the project:
 1️⃣ Clone the repo
    
 ```sh
-git clone https://github.com/yourusername/Selenium-RestAssured-Automation-Framework.git
+git clone https://github.com/QUALITYSENSEI/Foodics-Task.git
 ```
 
 2️⃣ Install Dependencies
