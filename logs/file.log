@@ -1,0 +1,151 @@
+2025-05-18 16:26:16 INFO  org.example.utils.JsonReaderUtil - Reading JSON file from: src/test/resources/testData.json
+2025-05-18 16:26:16 INFO  org.example.utils.JsonReaderUtil - Successfully loaded JSON data from src/test/resources/testData.json
+2025-05-18 16:26:16 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\omar9\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-05-18 16:26:16 INFO  o.example.utils.PropertiesReaderUtil - application.properties loaded successfully.
+2025-05-18 16:26:16 INFO  org.example.base.api.APIBaseTest - RestAssured base URI set to: https://reqres.in
+2025-05-18 16:26:16 INFO  o.example.utils.UserPayloadBuilder - Building user payload. Name: 'Omar Alaa', Job: 'Senior Quality Assurance & Test Automation Engineer'
+2025-05-18 16:26:18 INFO  o.example.utils.UserPayloadBuilder - Building user payload. Name: 'Omar Alaa', Job: 'Founder Of Quality Sensei'
+2025-05-18 16:26:40 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\omar9\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-05-18 16:26:40 INFO  org.example.base.ui.UiBaseTest - Setting up WebDriver for UI tests.
+2025-05-18 16:26:40 INFO  o.example.factory.WebDriverSingleton - Initializing WebDriver instance.
+2025-05-18 16:26:40 INFO  o.example.utils.PropertiesReaderUtil - application.properties loaded successfully.
+2025-05-18 16:26:42 INFO  o.example.factory.WebDriverSingleton - ChromeDriver created successfully.
+2025-05-18 16:26:42 INFO  org.example.base.ui.UiBaseTest - WebDriver setup complete: ChromeDriver
+2025-05-18 16:26:42 INFO  org.example.base.BasePage - BasePage initialized with WebDriver: ChromeDriver
+2025-05-18 16:26:43 INFO  org.example.base.BasePage - Clicking element by locator: By.cssSelector: div[id="nav-link-accountList"] a[data-nav-role="signin"]
+2025-05-18 16:26:43 INFO  org.example.base.BasePage - BasePage initialized with WebDriver: ChromeDriver
+2025-05-18 16:26:43 INFO  org.example.utils.JsonReaderUtil - Reading JSON file from: src/test/resources/testData.json
+2025-05-18 16:26:43 INFO  org.example.utils.JsonReaderUtil - Successfully loaded JSON data from src/test/resources/testData.json
+2025-05-18 16:26:43 INFO  org.example.base.BasePage - Sending text '+201558193970' to element by locator: By.xpath: //input[@name='email']
+2025-05-18 16:26:44 INFO  org.example.base.BasePage - Clicking element by locator: By.id: continue
+2025-05-18 16:26:44 INFO  org.example.base.BasePage - Sending text 'OmarAlaa123' to element by locator: By.id: ap_password
+2025-05-18 16:26:44 INFO  org.example.base.BasePage - Clicking element by locator: By.id: signInSubmit
+2025-05-18 16:26:45 INFO  org.example.base.BasePage - BasePage initialized with WebDriver: ChromeDriver
+2025-05-18 16:26:45 INFO  org.example.base.BasePage - Clicking element by locator: By.id: nav-hamburger-menu
+2025-05-18 16:26:49 INFO  org.example.base.BasePage - Clicking element by locator: By.xpath: //div[contains(text(),'See all')]
+2025-05-18 16:26:49 INFO  org.example.base.BasePage - Clicking element by locator: By.xpath: //a[@data-menu-id='16']
+2025-05-18 16:26:50 INFO  org.example.base.BasePage - Waiting for element to be clickable: By.xpath: //a[contains(text(),'All Video Games')]
+2025-05-18 16:26:51 WARN  org.example.base.BasePage - Element click intercepted, retrying with JavaScript for: By.xpath: //a[contains(text(),'All Video Games')]
+2025-05-18 16:26:52 INFO  org.example.base.BasePage - BasePage initialized with WebDriver: ChromeDriver
+2025-05-18 16:26:52 INFO  org.example.base.BasePage - Clicking element by locator: By.xpath: //ul[@aria-labelledby='p_n_free_shipping_eligible-title']
+2025-05-18 16:26:53 INFO  org.example.base.BasePage - Clicking element by locator: By.xpath: //span[text()='New']
+2025-05-18 16:26:54 INFO  org.example.base.BasePage - Selecting option 'Price: High to Low' from dropdown: By.xpath: //*[@id='s-result-sort-select']
+2025-05-18 16:26:54 INFO  org.example.base.BasePage - Adding products under price 15000.0 to cart (max 10 pages)
+2025-05-18 16:26:55 INFO  org.example.base.BasePage - Clicking element by locator: By.linkText: Next
+2025-05-18 16:26:55 INFO  org.example.base.BasePage - Moving to next page: 1
+2025-05-18 16:26:58 INFO  org.example.base.BasePage - Added product to cart with price: 13450.0
+2025-05-18 16:26:58 INFO  org.example.base.BasePage - Added product to cart with price: 13250.0
+2025-05-18 16:26:58 INFO  org.example.base.BasePage - Added product to cart with price: 13000.0
+2025-05-18 16:26:58 INFO  org.example.base.BasePage - Added product to cart with price: 12738.0
+2025-05-18 16:27:12 ERROR org.example.base.BasePage - Error adding product to cart: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6edf6a582faae03448d818c3749e4cec, findChildElement {using=xpath, value=.//button[contains(@class, 'a-button-text')], id=f.B30182813D9EF2FFAA8FFC3ACD555F08.d.A0A688011AA152905496CA772B34C0C9.e.580}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\omar9\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57491}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57491/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6edf6a582faae03448d818c3749e4cec
+2025-05-18 16:27:12 INFO  org.example.base.BasePage - Found and added product under threshold. Total added: 4
+2025-05-18 16:27:12 INFO  org.example.base.BasePage - Waiting for element to be clickable: By.id: nav-cart
+2025-05-18 16:27:13 INFO  org.example.base.BasePage - Clicked element: By.id: nav-cart
+2025-05-18 16:27:13 INFO  org.example.base.BasePage - BasePage initialized with WebDriver: ChromeDriver
+2025-05-18 16:27:13 INFO  org.example.base.BasePage - Clicking element by locator: By.name: proceedToRetailCheckout
+2025-05-18 16:27:15 INFO  org.example.base.BasePage - Checking if element is visible to click: By.id: prime-decline-button
+2025-05-18 16:27:35 WARN  org.example.base.BasePage - Element not visible in given time: By.id: prime-decline-button
+2025-05-18 16:27:35 INFO  org.example.base.BasePage - BasePage initialized with WebDriver: ChromeDriver
+2025-05-18 16:27:35 INFO  org.example.base.BasePage - Checking if element is visible to click: By.cssSelector: a[data-args="redirectReason=shipaddressselectChangeClicked"]
+2025-05-18 16:27:55 WARN  org.example.base.BasePage - Element not visible in given time: By.cssSelector: a[data-args="redirectReason=shipaddressselectChangeClicked"]
+2025-05-18 16:27:55 INFO  org.example.base.BasePage - Waiting for element to be clickable: By.id: add-new-address-desktop-sasp-tango-link
+2025-05-18 16:27:55 INFO  org.example.base.BasePage - Clicked element: By.id: add-new-address-desktop-sasp-tango-link
+2025-05-18 16:27:55 INFO  org.example.base.BasePage - Sending text 'Dokki' and TAB to element: By.id: address-ui-widgets-enterAddressCity
+2025-05-18 16:28:01 INFO  org.example.base.BasePage - Sending text 'Omar Alaa' to element by locator: By.id: address-ui-widgets-enterAddressFullName
+2025-05-18 16:28:01 INFO  org.example.base.BasePage - Sending text '+201558193970' to element by locator: By.id: address-ui-widgets-enterAddressPhoneNumber
+2025-05-18 16:28:01 INFO  org.example.base.BasePage - Sending text 'Test Data' to element by locator: By.id: address-ui-widgets-enterAddressLine1
+2025-05-18 16:28:01 INFO  org.example.base.BasePage - Sending text 'Test Building' to element by locator: By.id: address-ui-widgets-enter-building-name-or-number
+2025-05-18 16:28:01 INFO  org.example.base.BasePage - Clicking element by locator: By.id: address-ui-widgets-enterAddressDistrictOrCounty
+2025-05-18 16:28:01 INFO  org.example.base.BasePage - Sending text 'Mohi Al Din Abou Al Ezz' to element by locator: By.id: address-ui-widgets-enterAddressDistrictOrCounty
+2025-05-18 16:28:01 INFO  org.example.base.BasePage - Clicking element by locator: By.id: address-ui-widgets-enterAddressFullName
+2025-05-18 16:28:02 INFO  org.example.base.BasePage - Sending text 'Test' to element by locator: By.id: address-ui-widgets-landmark
+2025-05-18 16:28:02 INFO  org.example.base.BasePage - Clicking element by locator: By.id: address-ui-widgets-addr-details-res-radio-input
+2025-05-18 16:28:02 INFO  org.example.base.BasePage - Clicking element by locator: By.cssSelector: input[class="a-button-input"][data-csa-c-slot-id="address-ui-widgets-continue-address-btn-bottom"]
+2025-05-18 16:28:07 INFO  org.example.base.BasePage - BasePage initialized with WebDriver: ChromeDriver
+2025-05-18 16:28:12 INFO  org.example.base.ui.UiBaseTest - Tearing down WebDriver after UI tests.
+2025-05-18 16:28:12 INFO  o.example.factory.WebDriverSingleton - Quitting WebDriver instance.
+2025-05-18 16:28:12 INFO  o.example.factory.WebDriverSingleton - WebDriver quit successfully.
+2025-05-18 16:28:12 INFO  org.example.base.ui.UiBaseTest - WebDriver teardown complete.
+2025-05-18 16:31:22 INFO  org.example.utils.JsonReaderUtil - Reading JSON file from: src/test/resources/testData.json
+2025-05-18 16:31:22 INFO  org.example.utils.JsonReaderUtil - Successfully loaded JSON data from src/test/resources/testData.json
+2025-05-18 16:31:22 INFO  o.example.utils.PropertiesReaderUtil - application.properties loaded successfully.
+2025-05-18 16:31:23 INFO  org.example.base.api.APIBaseTest - RestAssured base URI set to: https://reqres.in
+2025-05-18 16:31:23 INFO  o.example.utils.UserPayloadBuilder - Building user payload. Name: 'Omar Alaa', Job: 'Senior Quality Assurance & Test Automation Engineer'
+2025-05-18 16:31:24 INFO  o.example.utils.UserPayloadBuilder - Building user payload. Name: 'Omar Alaa', Job: 'Founder Of Quality Sensei'
+2025-05-18 16:31:25 INFO  org.example.base.ui.UiBaseTest - Setting up WebDriver for UI tests.
+2025-05-18 16:31:25 INFO  o.example.factory.WebDriverSingleton - Initializing WebDriver instance.
+2025-05-18 16:31:26 INFO  o.example.factory.WebDriverSingleton - ChromeDriver created successfully.
+2025-05-18 16:31:26 INFO  org.example.base.ui.UiBaseTest - WebDriver setup complete: ChromeDriver
+2025-05-18 16:31:26 INFO  org.example.base.BasePage - BasePage initialized with WebDriver: ChromeDriver
+2025-05-18 16:31:26 INFO  org.example.base.BasePage - Clicking element by locator: By.cssSelector: div[id="nav-link-accountList"] a[data-nav-role="signin"]
+2025-05-18 16:31:27 INFO  org.example.base.BasePage - BasePage initialized with WebDriver: ChromeDriver
+2025-05-18 16:31:27 INFO  org.example.base.BasePage - Sending text '+201558193970' to element by locator: By.xpath: //input[@name='email']
+2025-05-18 16:31:27 INFO  org.example.base.BasePage - Clicking element by locator: By.id: continue
+2025-05-18 16:31:28 INFO  org.example.base.BasePage - Sending text 'OmarAlaa123' to element by locator: By.id: ap_password
+2025-05-18 16:31:28 INFO  org.example.base.BasePage - Clicking element by locator: By.id: signInSubmit
+2025-05-18 16:31:28 INFO  org.example.base.BasePage - BasePage initialized with WebDriver: ChromeDriver
+2025-05-18 16:31:28 INFO  org.example.base.BasePage - Clicking element by locator: By.id: nav-hamburger-menu
+2025-05-18 16:31:30 INFO  org.example.base.BasePage - Clicking element by locator: By.xpath: //div[contains(text(),'See all')]
+2025-05-18 16:31:30 INFO  org.example.base.BasePage - Clicking element by locator: By.xpath: //a[@data-menu-id='16']
+2025-05-18 16:31:31 INFO  org.example.base.BasePage - Waiting for element to be clickable: By.xpath: //a[contains(text(),'All Video Games')]
+2025-05-18 16:31:32 WARN  org.example.base.BasePage - Element click intercepted, retrying with JavaScript for: By.xpath: //a[contains(text(),'All Video Games')]
+2025-05-18 16:31:33 INFO  org.example.base.BasePage - BasePage initialized with WebDriver: ChromeDriver
+2025-05-18 16:31:33 INFO  org.example.base.BasePage - Clicking element by locator: By.xpath: //ul[@aria-labelledby='p_n_free_shipping_eligible-title']
+2025-05-18 16:31:34 INFO  org.example.base.BasePage - Clicking element by locator: By.xpath: //span[text()='New']
+2025-05-18 16:31:35 INFO  org.example.base.BasePage - Selecting option 'Price: High to Low' from dropdown: By.xpath: //*[@id='s-result-sort-select']
+2025-05-18 16:31:36 INFO  org.example.base.BasePage - Adding products under price 15000.0 to cart (max 10 pages)
+2025-05-18 16:31:36 INFO  org.example.base.BasePage - Clicking element by locator: By.linkText: Next
+2025-05-18 16:31:36 INFO  org.example.base.BasePage - Moving to next page: 1
+2025-05-18 16:31:39 INFO  org.example.base.BasePage - Added product to cart with price: 13450.0
+2025-05-18 16:31:39 INFO  org.example.base.BasePage - Added product to cart with price: 13250.0
+2025-05-18 16:31:40 INFO  org.example.base.BasePage - Added product to cart with price: 13000.0
+2025-05-18 16:31:40 INFO  org.example.base.BasePage - Added product to cart with price: 12738.0
+2025-05-18 16:31:41 ERROR org.example.base.BasePage - Error adding product to cart: stale element reference: stale element not found
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0268359ca419dbe22eb2d5a894985a83, findChildElement {value=.//button[contains(@class, 'a-button-text')], id=f.FC7AF59F4987501887E6A0E1AB5A170C.d.91F144BD6F6228F22097F74D708C7926.e.586, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\omar9\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57639}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57639/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0268359ca419dbe22eb2d5a894985a83
+2025-05-18 16:31:41 INFO  org.example.base.BasePage - Found and added product under threshold. Total added: 4
+2025-05-18 16:31:41 INFO  org.example.base.BasePage - Waiting for element to be clickable: By.id: nav-cart
+2025-05-18 16:31:43 INFO  org.example.base.BasePage - Clicked element: By.id: nav-cart
+2025-05-18 16:31:43 INFO  org.example.base.BasePage - BasePage initialized with WebDriver: ChromeDriver
+2025-05-18 16:31:43 INFO  org.example.base.BasePage - Clicking element by locator: By.name: proceedToRetailCheckout
+2025-05-18 16:31:45 INFO  org.example.base.BasePage - Checking if element is visible to click: By.id: prime-decline-button
+2025-05-18 16:32:05 WARN  org.example.base.BasePage - Element not visible in given time: By.id: prime-decline-button
+2025-05-18 16:32:05 INFO  org.example.base.BasePage - BasePage initialized with WebDriver: ChromeDriver
+2025-05-18 16:32:05 INFO  org.example.base.BasePage - Checking if element is visible to click: By.cssSelector: a[data-args="redirectReason=shipaddressselectChangeClicked"]
+2025-05-18 16:32:25 WARN  org.example.base.BasePage - Element not visible in given time: By.cssSelector: a[data-args="redirectReason=shipaddressselectChangeClicked"]
+2025-05-18 16:32:25 INFO  org.example.base.BasePage - Waiting for element to be clickable: By.id: add-new-address-desktop-sasp-tango-link
+2025-05-18 16:32:25 INFO  org.example.base.BasePage - Clicked element: By.id: add-new-address-desktop-sasp-tango-link
+2025-05-18 16:32:25 INFO  org.example.base.BasePage - Sending text 'Dokki' and TAB to element: By.id: address-ui-widgets-enterAddressCity
+2025-05-18 16:32:31 INFO  org.example.base.BasePage - Sending text 'Omar Alaa' to element by locator: By.id: address-ui-widgets-enterAddressFullName
+2025-05-18 16:32:31 INFO  org.example.base.BasePage - Sending text '+201558193970' to element by locator: By.id: address-ui-widgets-enterAddressPhoneNumber
+2025-05-18 16:32:31 INFO  org.example.base.BasePage - Sending text 'Test Data' to element by locator: By.id: address-ui-widgets-enterAddressLine1
+2025-05-18 16:32:31 INFO  org.example.base.BasePage - Sending text 'Test Building' to element by locator: By.id: address-ui-widgets-enter-building-name-or-number
+2025-05-18 16:32:31 INFO  org.example.base.BasePage - Clicking element by locator: By.id: address-ui-widgets-enterAddressDistrictOrCounty
+2025-05-18 16:32:31 INFO  org.example.base.BasePage - Sending text 'Mohi Al Din Abou Al Ezz' to element by locator: By.id: address-ui-widgets-enterAddressDistrictOrCounty
+2025-05-18 16:32:31 INFO  org.example.base.BasePage - Clicking element by locator: By.id: address-ui-widgets-enterAddressFullName
+2025-05-18 16:32:31 INFO  org.example.base.BasePage - Sending text 'Test' to element by locator: By.id: address-ui-widgets-landmark
+2025-05-18 16:32:31 INFO  org.example.base.BasePage - Clicking element by locator: By.id: address-ui-widgets-addr-details-res-radio-input
+2025-05-18 16:32:31 INFO  org.example.base.BasePage - Clicking element by locator: By.cssSelector: input[class="a-button-input"][data-csa-c-slot-id="address-ui-widgets-continue-address-btn-bottom"]
+2025-05-18 16:32:36 INFO  org.example.base.BasePage - BasePage initialized with WebDriver: ChromeDriver
+2025-05-18 16:32:41 INFO  org.example.base.ui.UiBaseTest - Tearing down WebDriver after UI tests.
+2025-05-18 16:32:41 INFO  o.example.factory.WebDriverSingleton - Quitting WebDriver instance.
+2025-05-18 16:32:42 INFO  o.example.factory.WebDriverSingleton - WebDriver quit successfully.
+2025-05-18 16:32:42 INFO  org.example.base.ui.UiBaseTest - WebDriver teardown complete.
