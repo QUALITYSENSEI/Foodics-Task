@@ -160,31 +160,69 @@ public void clickElement(By locator) {
 ```
 
 ## Project Structure
-The project follows a clear separation of concerns with distinct packages:
+The project follows a clear separation of concerns with distinct packages. Here's an overview of the actual project structure:
 
-- **Base Package**
-  - Contains base classes for UI and API tests
-  - `BasePage.java`: Foundation for all page objects with common methods
-  - `APIBaseTest.java`: Sets up API test configurations
+```
+├── logs/
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── org.example/
+│   │           ├── base/
+│   │           │   └── BasePage.java
+│   │           ├── factory/
+│   │           │   └── WebDriverSingleton.java
+│   │           ├── pages/
+│   │           │   ├── CartPage.java
+│   │           │   ├── CheckOutPage.java
+│   │           │   ├── HomePage.java
+│   │           │   ├── SignInPage.java
+│   │           │   └── VideoGamesPage.java
+│   │           ├── utils/
+│   │           │   ├── JsonReaderUtil.java
+│   │           │   ├── PropertiesReaderUtil.java
+│   │           │   └── UserPayloadBuilder.java
+│   │           └── resources/
+│   │               └── logback.xml
+│   └── test/
+│       ├── java/
+│       │   └── org.example/
+│       │       ├── base/
+│       │       │   ├── api/
+│       │       │   │   └── APIBaseTest.java
+│       │       │   └── ui/
+│       │       │       └── UIBaseTest.java
+│       │       └── tests/
+│       │           ├── api/
+│       │           │   └── ApiTest.java
+│       │           └── ui/
+│       │               └── AmazonTest.java
+│       └── resources/
+│           ├── application.properties
+│           └── testData.json
+└── target/
+```
 
-- **Pages Package**
-  - Implements Page Object Model 
-  - Each page has its own class with relevant elements and actions
+### Key Components:
 
-- **Tests Package**
-  - `ui`: Contains UI test scenarios
-  - `api`: Contains API test scenarios
+- **Main Source (`src/main/java`)**:
+  - **Base Package**: Contains `BasePage.java` with common WebDriver interactions
+  - **Factory Package**: Implements `WebDriverSingleton.java` for browser session management
+  - **Pages Package**: Page Object Model implementation with classes for each page
+  - **Utils Package**: Utility classes for configuration and data management
 
-- **Utils Package**
-  - Utility classes for configuration, data reading, and payload creation
-  - `JsonReaderUtil.java`: Handles test data from JSON files
-  - `PropertiesReaderUtil.java`: Manages application properties
-  - `UserPayloadBuilder.java`: Creates API request payloads
+- **Test Source (`src/test/java`)**:
+  - **Base Package**:
+    - `api/APIBaseTest.java`: Sets up API test configurations
+    - `ui/UIBaseTest.java`: Sets up UI test configurations
+  - **Tests Package**:
+    - `api/ApiTest.java`: API test scenarios for user management
+    - `ui/AmazonTest.java`: UI test scenarios for Amazon shopping flow
 
-- **Resources**
-  - Test data in JSON format
-  - Application properties
-  - Logging configuration
+- **Resources**:
+  - `logback.xml`: Logging configuration
+  - `application.properties`: Application configuration properties
+  - `testData.json`: Test data in JSON format
 
 ## Test Scenarios
 
